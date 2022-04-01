@@ -1,5 +1,9 @@
 class ServiceDataModel {
-  final String name, desc;
+  final String name;
+  final List<Map<String, dynamic>> workers;
 
-  ServiceDataModel(this.name, this.desc);
+  ServiceDataModel({
+    required this.name,
+    required this.workers,
+  });
 }
